@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "terraformConfiguredExample" {
-  ami           = "ami-a2fbd5d1"
+  ami           = "ami-cbfcd2b8"
   instance_type = "t2.micro"
 }
